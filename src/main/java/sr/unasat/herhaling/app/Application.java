@@ -9,8 +9,8 @@ public class Application {
 
         TafelService tafelService = new TafelService();
 
-       tafelService.tafelVanForloop( 12);
+       tafelService.tafelVan10Forloop();
 
-        tafelService.tafelVanWhileLoop( 12);
+        tafelService.tafelVan10WhileLoop();
     }
 }

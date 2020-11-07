@@ -2,27 +2,27 @@ package sr.unasat.herhaling.services;
 
 public class TafelService {
 
-    public static void tafelVanForloop( int tafel){
+    public static void tafelVan10Forloop(){
 
-        System.out.println("Tafel van "+ tafel +" For loop");
+        System.out.println("Tafel van 10 For loop");
 
-        for( int i = 0; i <= tafel; i++){
+        for( int i = 0; i <= 10; i++){
 
-            System.out.println( i + " * " +  tafel + " = " + i * tafel );
+            System.out.println( i + "* 10 = " + i * 10 );
 
         }
 
     }
 
 
-    public static void tafelVanWhileLoop( int tafel){
+    public static void tafelVan10WhileLoop(){
         int startNumber = 0;
-        int  finishedNumber = tafel;
+        int  finishedNumber = 10;
         System.out.println();
-        System.out.println("Tafel "+ tafel +" loop");
+        System.out.println("Tafel van 10 While loop");
         while ( startNumber <= finishedNumber){
 
-            System.out.println( startNumber + " * " +  tafel +" = " +  startNumber * tafel  );
+            System.out.println(startNumber + " *" + " 10 = " +  startNumber * 10  );
             startNumber++;
         }
     }
