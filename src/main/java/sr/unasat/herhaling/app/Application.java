@@ -12,5 +12,9 @@ public class Application {
        tafelService.tafelVanForloop( 12);
 
         tafelService.tafelVanWhileLoop( 12);
+
+        tafelService.tafelVan10Forloop();
+
+        tafelService.tafelVan10WhileLoop();
     }
 }
