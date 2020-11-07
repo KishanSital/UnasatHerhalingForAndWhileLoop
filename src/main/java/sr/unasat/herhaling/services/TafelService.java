@@ -51,4 +51,31 @@ public class TafelService {
             startNumber++;
         }
     }
+
+
+    public static void tafelVanForloop( int begin , int eind,  int tafel){
+
+        System.out.println("Tafel van "+ tafel +" For loop");
+
+        for( int i = begin; i <= eind; i++){
+
+            System.out.println( i + " * " +  tafel + " = " + i * tafel );
+
+        }
+
+    }
+
+
+    public static void tafelVanWhileLoop( int begin, int eind, int tafel){
+
+        System.out.println();
+        System.out.println("Tafel "+ tafel +" loop");
+        while ( begin <= eind){
+
+            System.out.println( begin + " * " +  tafel +" = " +  begin * tafel  );
+            begin++;
+        }
+    }
+
+
 }
